@@ -1,0 +1,21 @@
+/* Empty. Add your own CSS if you like */
+
+.menu-left ion-content,.menu-left .item-complex .item-content{
+color:white;
+background-color: #387EF5;
+font-weight: bold;
+}
+
+.menu-right ion-content,.menu-right .item-complex .item-content{
+color:white;
+background-color: #387EF5;
+font-weight: bold;
+}
+
+.content-with-full-height{
+  height: 100%;
+}
+
+.equal-sized-item{
+  line-height: 7%;
+}

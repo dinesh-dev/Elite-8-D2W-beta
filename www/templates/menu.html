@@ -1,0 +1,72 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable bar-positive">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+      <ion-nav-buttons side="right">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="right">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left"  >
+   <ion-header-bar class="bar-stable bar-positive equal-sized-item">
+     
+    </ion-header-bar>
+    <ion-content class="content-with-full-height" >
+      <ion-list class="content-with-full-height">
+        <ion-item class="equal-sized-item" menu-close href="#/app/home" >
+          Home
+        </ion-item>
+        <ion-item menu-close href="#/app/news" class="equal-sized-item">
+          News
+        </ion-item>
+        <ion-item menu-close href="#/app/schedule" class="equal-sized-item">
+          Schedule
+        </ion-item>
+        <ion-item menu-close href="#/app/ranking" class="equal-sized-item">
+          Ranking
+        </ion-item>
+        <ion-item menu-close href="#/app/bracket" class="equal-sized-item">
+          Bracket
+        </ion-item>
+        <ion-item menu-close href="#/app/video" class="equal-sized-item">
+          Video
+        </ion-item>
+        <ion-item menu-close href="#/app/live" class="equal-sized-item">
+          Live Stats
+        </ion-item>
+        <ion-item menu-close href="#/app/tickets" class="equal-sized-item">
+          Tickets
+        </ion-item>
+        <ion-item menu-close href="#/app/twitter" class="equal-sized-item">
+          Twitter
+        </ion-item>
+
+        
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+  <ion-side-menu side="right">
+    <ion-header-bar class="bar-stable bar-positive ">
+     
+    </ion-header-bar>
+    <ion-content>
+      <ion-list>
+        <ion-item menu-close ng-click="login()">
+          Login
+        </ion-item>
+        <ion-item menu-close href="#/app/test">
+          test
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
