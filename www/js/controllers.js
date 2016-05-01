@@ -40,7 +40,27 @@ angular.module('starter.controllers', [])
     }, 1000);
   };
 })
+.controller('MyCtrl', function($scope, $cordovaInAppBrowser) {
 
+   var options = {
+      location: 'yes',
+      clearcache: 'yes',
+      toolbar: 'no'
+   };
+
+   $scope.openBrowser = function() {
+      $cordovaInAppBrowser.open('http://ngcordova.com', '_blank', options)
+		
+      .then(function(event) {
+         // success
+      })
+		
+      .catch(function(event) {
+         // error
+      });
+   }
+
+})
 
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
