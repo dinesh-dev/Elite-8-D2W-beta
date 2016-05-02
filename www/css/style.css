@@ -19,3 +19,21 @@ font-weight: bold;
 .equal-sized-item{
   line-height: 7%;
 }
+  .pane {
+   background: url(../img/200px.png) no-repeat center center fixed, url(../img/back150.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: auto, cover;
+		  -moz-background-size: auto, cover;
+		  -o-background-size: auto, cover;
+		  background-size: auto, cover;
+		  background-position: center, center; 
+  }
+@media (min-width:800px){
+  .pane {
+    background: url(../img/icon300.png) no-repeat center center fixed, url(../img/back150.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: auto, cover;
+		  -moz-background-size: auto, cover;
+		  -o-background-size: auto, cover;
+		  background-size: auto, cover;
+		  background-position: center, center; 
+  }
+}
